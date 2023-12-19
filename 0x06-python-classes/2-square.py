@@ -12,7 +12,7 @@ class Square:
             size: length of the square.
 
         Raises:
-            TypeEroor: If size is not int
+            TypeEroor: If size is not an integer
             ValueError: If size is less than 0
         """
         if not isinstance(size, int)
