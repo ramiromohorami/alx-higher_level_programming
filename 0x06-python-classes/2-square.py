@@ -10,7 +10,7 @@ class Square:
 
         Args:
             size: length of the square.
-        raises:
+        Raises:
             TypeEroor: if the type is not int
             ValueError: if size is less than 0
         """
