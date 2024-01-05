@@ -11,7 +11,7 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """Initializes the rectangle"""
-        type(self).number_of_instances += 1
+        Rectangle.number_of_instances += 1
         self.height = height
         self.width = width
     @classmethod
@@ -112,5 +112,5 @@ class Rectangle:
         '''method: __del__
         deletes instance of Rectangle class, and prints "bye" message
         '''
-        type(self).number_of_instances -= 1
+        Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
