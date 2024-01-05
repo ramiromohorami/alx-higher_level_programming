@@ -75,6 +75,10 @@ class Rectangle:
         if rect_1.area() >= rect_2.area():
             return (rect_1)
         return (rect_2)
+"""
+str
+"""
+
     def __str__(self):
         '''method: __str__
         return: nice string representation of rectangle
